@@ -1,0 +1,189 @@
+.container {
+  margin: auto; }
+
+img {
+  max-width: 100%; }
+
+body {
+  font-family: 'ZCOOL QingKe HuangYou', cursive;
+  font-size: 16px;
+  line-height: 1.5em;
+  overflow-x: hidden; }
+
+.primary-text {
+  color: #56a79a; }
+
+.primart-background {
+  background-color: #56a79a; }
+
+#header {
+  border-bottom: 1px solid #56a79a; }
+
+#navbar {
+  text-transform: uppercase; }
+  #navbar li {
+    display: inline;
+    padding-right: 20px;
+    list-style: none; }
+
+#navbar li.current a, #navbar a:hover {
+  color: #56a79a;
+  border-bottom: 2px solid #56a79a;
+  padding-bottom: 3px; }
+
+#navbar a {
+  text-decoration: none;
+  color: #888;
+  transition: .3s; }
+
+#case {
+  background: url("../img/showcase.jpg") center no-repeat;
+  background-size: cover;
+  border-bottom: 1px solid #56a79a;
+  margin-bottom: 30px; }
+
+#case .row {
+  min-height: 600px; }
+
+#case h1 {
+  font-size: 54px;
+  margin: 0;
+  padding-bottom: 20px; }
+
+#case p {
+  color: #ccc;
+  margin: 0; }
+
+#case .case-content {
+  background-color: #333;
+  color: #fff;
+  border-radius: 90px;
+  padding: 40px;
+  opacity: 0.9; }
+
+@media (max-width: 800px) {
+  #case h1 {
+    font-size: 30px; } }
+
+@media (max-width: 480px) {
+  #case .case-content {
+    padding: 40px 10px; } }
+
+@media (max-width: 768px) {
+  #corporation {
+    text-align: center; } }
+
+#features h2 {
+  font-size: 36px;
+  margin: 0;
+  padding-bottom: 10px; }
+
+#features p {
+  color: #888;
+  margin: 0;
+  margin-bottom: 40px; }
+
+#features i {
+  font-size: 60px;
+  color: #56a79a; }
+
+#info {
+  background: url("../img/info-bg.jpg") center no-repeat;
+  background-size: cover;
+  color: #fff; }
+  #info h2 {
+    font-size: 36px;
+    margin: 0;
+    padding-bottom: 10px; }
+  #info ul {
+    list-style: none;
+    padding: 0; }
+  #info li {
+    line-height: 2em;
+    font-size: 20px; }
+    #info li i {
+      padding-right: 10px; }
+
+#corporation {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0; }
+  #corporation input[type="text"] {
+    padding: 7px; }
+  #corporation button {
+    background-color: #222;
+    border: none;
+    color: #fff;
+    padding: 10px; }
+  #corporation h4 {
+    text-transform: uppercase;
+    margin-bottom: 0; }
+  #corporation ul {
+    list-style: none;
+    padding: 0;
+    line-height: 2em; }
+  #corporation li i {
+    padding-right: 10px; }
+
+#footer {
+  background-color: #56a79a;
+  color: #eee; }
+
+#page {
+  margin-bottom: 40px; }
+
+#page ul {
+  padding: 0;
+}
+
+#page ul li {
+  list-style: none;
+  padding: 10px; 
+width: 80%;
+margin-left: auto;
+margin-right: auto;}
+
+#page ul li:nth-child(odd) {
+  background-color: #333;
+  color: #fff; }
+
+#page ul li:nth-child(even) {
+  background-color: #56a79a;
+  color: #fff; }
+
+.contact form {
+  background-color: #333;
+  color: #fff;
+  padding: 20px; }
+  .contact form input {
+    width: 50%;
+    height: 30px;
+    margin-bottom: 10px;
+    padding-left: 10px; }
+    .contact form input:focus {
+      outline: 3px solid #56a79a; }
+  .contact form textarea {
+    width: 50%;
+    padding-left: 10px;
+    height: 100px;
+    margin-bottom: 10px; }
+    .contact form textarea:focus {
+      outline: 3px solid #56a79a; }
+  .contact form button {
+    width: 50%;
+    padding: 10px 0;
+    border: none;
+    background-color: #222;
+    color: #fff; }
+    .contact form button:focus {
+      outline: none; }
+  .contact form label {
+    text-transform: uppercase;
+    display: inline-block;
+    margin-bottom: 5px; }
+@media (max-width: 767px) {
+  h1 {
+    text-align: center;
+  }
+}
+
